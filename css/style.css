@@ -44,9 +44,18 @@ ul {
     border-bottom: 2px solid transparent;
     font-weight: 600;
 }
-.navbar .links li.active {
+.navbar .links li a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar .links li.active a,
+.navbar .links li a:hover {
     color: #1abc9c;
+}
+.navbar .links li.active,
+.navbar .links li:hover {
     border-bottom: 2px solid #1abc9c;
+
 }
 /* End Navbar  */
 /* Start Header  */
@@ -92,3 +101,12 @@ ul {
     color: #1abc9c;
 }
 /* End Header  */
+
+/* Start Our Services  */
+.services {
+    height: 2000px;
+}
+.services h2 {
+    margin: 0;
+}
+/* End  Our Services  */

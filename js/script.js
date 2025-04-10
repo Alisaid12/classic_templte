@@ -40,4 +40,15 @@ $(function () {
     mySlider.bxSlider({
       pager: false,
     });
+  
+  
+  // Smoth Scroll To Div 
+  $('.links li a').click(function () { 
+    console.log('clicked');
+    
+    $('html,body').animate({
+
+      scrollTop: $('#' + $(this).data('value')).offset().top
+    },1000)
+  });
 });
