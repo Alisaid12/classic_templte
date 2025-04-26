@@ -229,4 +229,11 @@ ul {
   font-size: 30px;
   color: var(--main-color);
 }
+.testim .Slider > div {
+  display: none;
+}
+.testim .Slider .active {
+  display: block;
+}
+
 /* End  Testimonials */
